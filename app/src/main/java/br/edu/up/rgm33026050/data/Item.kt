@@ -14,13 +14,17 @@
  * limitations under the License.
  */
 
-package com.example.inventory.data
-
+package br.edu.up.rgm33026050.data
 
 /**
  * Entity data class represents a single row in the database.
  */
-class Item(
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "items")
+data class Item(
+    @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
     val name: String,
     val price: Double,
