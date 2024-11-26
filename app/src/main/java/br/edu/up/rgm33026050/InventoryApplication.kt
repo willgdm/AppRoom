@@ -17,8 +17,8 @@
 package com.example.inventory
 
 import android.app.Application
-import com.example.inventory.data.AppContainer
-import com.example.inventory.data.AppDataContainer
+import br.edu.up.rgm33026050.data.AppContainer
+import br.edu.up.rgm33026050.data.AppDataContainer
 
 class InventoryApplication : Application() {
 
