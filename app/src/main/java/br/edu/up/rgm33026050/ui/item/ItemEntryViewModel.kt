@@ -22,7 +22,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import br.edu.up.rgm33026050.data.Item
 import java.text.NumberFormat
-import com.example.inventory.data.ItemsRepository
+import br.edu.up.rgm33026050.data.ItemsRepository
 
 /**
  * ViewModel to validate and insert items in the Room database.
