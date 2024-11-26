@@ -17,6 +17,8 @@
 package com.example.inventory.data
 
 import android.content.Context
+import br.edu.up.rgm33026050.data.ItemsRepository
+import br.edu.up.rgm33026050.data.OfflineItemsRepository
 
 /**
  * App container for Dependency injection.
