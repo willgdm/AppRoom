@@ -40,9 +40,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
+import br.edu.up.rgm33026050.ui.item.ItemDetails
+import br.edu.up.rgm33026050.ui.item.ItemEntryViewModel
+import br.edu.up.rgm33026050.ui.item.ItemUiState
 import com.example.inventory.InventoryTopAppBar
 import com.example.inventory.R
-import com.example.inventory.ui.AppViewModelProvider
+import br.edu.up.rgm33026050.ui.AppViewModelProvider
 import com.example.inventory.ui.navigation.NavigationDestination
 import com.example.inventory.ui.theme.InventoryTheme
 import java.util.Currency

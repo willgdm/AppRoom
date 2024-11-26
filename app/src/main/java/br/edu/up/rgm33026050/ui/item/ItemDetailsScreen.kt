@@ -55,6 +55,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.inventory.InventoryTopAppBar
 import com.example.inventory.R
 import br.edu.up.rgm33026050.data.Item
+import br.edu.up.rgm33026050.ui.item.formatedPrice
+import br.edu.up.rgm33026050.ui.item.toItem
 import com.example.inventory.ui.navigation.NavigationDestination
 import com.example.inventory.ui.theme.InventoryTheme
 
@@ -237,7 +239,7 @@ fun ItemDetailsScreenPreview() {
         ItemDetailsBody(
             ItemDetailsUiState(
                 outOfStock = true,
-                itemDetails = ItemDetails(1, "Pen", "$100", "10")
+                itemDetails = br.edu.up.rgm33026050.ui.item.ItemDetails(1, "Pen", "$100", "10")
             ),
             onSellItem = {},
             onDelete = {}
